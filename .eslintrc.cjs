@@ -17,4 +17,15 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  
+
+  
+  
+}
+{
+  "extends"; "react-app",
+  "rules"; {
+    "react/prop-types"; "error",
+    "react/react-in-jsx-scope"; "off"
+  }
 }

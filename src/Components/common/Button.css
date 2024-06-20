@@ -1,0 +1,49 @@
+:root {
+    --primario: rgba(13, 44, 84);
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn--primario {
+    /* background-color: var(--primario); */
+    color: var(--primario);
+    font-weight: 100;
+    border: 1px solid var(--primario);
+    border-radius: 10px;
+  }
+  
+  .btn--delineado {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+  }
+  #btn--chico {
+    padding: 6px 14px;
+  }
+  
+  .btn--mediano {
+    padding: 8px 20px;
+    font-size: 18px;
+  }
+  
+  .btn--grande {
+    padding: 12px 26px;
+    font-size: 20px;
+  }
+  
+  .btn--grande:hover,
+  .btn--mediano:hover {
+    transition: all 0.1s ease-out;
+    background: rgba(13, 44, 84);
+    color: white;
+    transition: 250ms;
+  }
+  
